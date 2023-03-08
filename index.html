@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <title>Sapato Mania</title>
+</head>
+<body>
+   <header>
+        <div class="logo">
+            <a href="">
+                <img src="./img/logo.svg" alt="">
+            </a>
+        </div>
+        <section id="navbar" class="navbar">
+            <ul>
+                <li><a href="">HOMEM</a></li>
+                <li><a href="">MULHER</a></li>
+                <li><a href="">CRIANÇA</a></li>
+                <li><a href="">CUSTOMIZAR</a></li>
+            </ul>
+            <form class="submit-line">
+                <button type="submit" class="submit-lente">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="search" placeholder="Pesquisar">
+            </form>
+        </section>
+    <button id="menu" class="hamburguer"><i class="fa-solid fa-bars"></i></button>
+   </header>
+   <main>
+        <section class="info">
+            <div class="info-product">
+                <h1>Tênis Esportivo Para Corrida Top</h1>
+                <p class="p1">Esse tênis tem o intuito de te deixar ainda mais focado e musculoso.</p>
+                <p class="p2">R$ 1.000,00</p>
+                <button>COMPRAR</button>
+            </div>
+            <div class="product-img">             
+                    <img id="main-img" src="./img/tenis-1-ampliado.png" alt="Tênis" class="img-main">       
+                    <div class="gallery">
+                        <ul>
+                            <li><a id="img-1" href=""><img src="./img/tenis-1-galeria.png" alt=""></a></li>
+                            <li><a id="img-2" href=""><img src="./img/tenis-2-galeria.png" alt=""></a></li>
+                            <li><a id="img-3" href=""><img src="./img/tenis-3-galeria.png" alt=""></a></li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+   </main>
+   <footer>
+        <div class="container">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"> FACEBOOK</i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"> Instagram</i></a></i></li>
+                <li><a href=""><i class="fa-brands fa-youtube"> Youtube</i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"> Twitter</i></a></li>
+            </ul>
+        </div>
+        <div class="more">
+            <ul>
+                <li class="explore"><a href="">EXPLORE MAIS <i class="fa-solid fa-arrow-right"> </i></a></li>
+            </ul>
+        </div>
+   </footer>
+
+   <script src="./src/js/index.js"></script>
+</body>
+</html>
